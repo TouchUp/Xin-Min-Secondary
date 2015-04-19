@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box; 
+    
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: url(./home_img/xinmin_bg.jpg) no-repeat;
+    background-size: 1920px 1080px;
+    color: white;
+}
+
+body > div {
+    height: 100vh;
+}
+
+/* ------------------------------ */
+
+#main-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 70%;
+    float: right;
+}
+
+/*
+#main-body {
+    width: 70%;
+    float: right;
+    column-count: 2;
+    -webkit-column-count: 2;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}*/
+
+/********************/
+
+.leftcol {
+    float: left;
+    border-right: 5px solid white;
+    text-align: center;
+}
+
+.thirty {
+    width: 30vw;
+}
+
+.twenty {
+    width: 20vw;
+}
+
+/**************************************/
+
+/*.round-selector {
+    border-radius: 50%;
+    border: 10px solid grey;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+figcaption {
+    font-size: 2em;
+    line-height: 0;
+}*/
+
+.round-selector {
+    height: 450px;
+    width: 450px;
+    text-align: center;
+}
+
+img {
+}
+    
