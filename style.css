@@ -11,14 +11,28 @@ html, body {
 body {
     height: 100vh;
     overflow: hidden;
-    background: url(./home_img/xinmin_bg.jpg) no-repeat;
+    background: url(./img/home_img/xinmin_bg.jpg) no-repeat;
     background-size: 1920px 1080px;
     color: white;
 }
 
-body > div {
+/** for content pages, colour scheme reversed **/
+
+.white {
+    color: black;
+    background: url(./img/xinmin_bg_WHITE.png) no-repeat;
+    background-size: 1920px 1080px;
+}
+
+#main-body, .leftcol {
     height: 100vh;
 }
+
+/*
+body > div {
+    height: 100vh;
+}*/
+
 
 /* ------------------------------ */
 
@@ -29,8 +43,26 @@ body > div {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    width: 70%;
+
     float: right;
+}
+
+#header {
+    height: 200px;
+    text-align: right;
+    position: absolute;
+    
+}
+
+#header img {
+}
+
+.seventy {
+    width: 70%;
+}
+
+.eighty-five {
+    width: 85%;
 }
 
 /*
@@ -49,39 +81,28 @@ body > div {
     float: left;
     border-right: 5px solid white;
     text-align: center;
+    position: relative;
+}
+
+.inverse {
+    border-right: 5px solid black;
 }
 
 .thirty {
     width: 30vw;
 }
 
-.twenty {
-    width: 20vw;
+.fifteen {
+    width: 15vw;
+}
+
+.leftcol > .footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.fifteen :first-child {
+    margin-top: 20px;
 }
 
 /**************************************/
-
-/*.round-selector {
-    border-radius: 50%;
-    border: 10px solid grey;
-    height: 400px;
-    width: 400px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 80px;
-}
-
-figcaption {
-    font-size: 2em;
-    line-height: 0;
-}*/
-
-.round-selector {
-    height: 450px;
-    width: 450px;
-    text-align: center;
-}
-
-img {
-}
-    
