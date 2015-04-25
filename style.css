@@ -51,6 +51,7 @@ body > div {
     height: 200px;
     text-align: right;
     position: absolute;
+    right: 0px;
     
 }
 
